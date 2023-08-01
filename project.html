@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="ytf-8">
         <title>グルメ情報</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <link rel="stylesheet" href="project.css">
+        <script src="gourmet.js" defer></script>
     </head>
     <body>
-        <p>&#9702;グルメ情報（検索結果は2件）</p>
-        <ul>
-            <dl>
-                <dt>&#9642;検索結果1件目</dt>
-                <dd>&#9642;アクセス: 京王八王子駅を背にし右手に見えるローソンの隣のビル、ホテルザ・ビーの2階です。</dd>
-                <dd>&#9642;住所: 東京都八王子市明神町４-6-12　ホテル・ザ・ビー八王子（旧八王子プラザホテル）2F</dd>
-                <dd>&#9642;予算: 3001～4000円</dd>
-                <dd>&#9642;キャッチコピー: 【サプライズ演出有】 結婚パーティー受付中</dd>
-                <dd>&#9642;ジャンル: 居酒屋</dd>
-                <dd>&#9642;営業時間: 月～日、祝日、祝前日: 17:00～21:00 （料理L.O. 20:00 ドリンクL.O. 20:00）</dd>
-                <dd>&#9642;最寄駅: 京王八王子</dd>
-                <dd>&#9642;サブジャンル: ダイニングバー・バル</dd>
-                <dt>&#9642;検索結果2件目</dt>
-                <dd>&#9642;アクセス: ＪＲ八王子駅北口徒歩1分/京王八王子駅徒歩3分</dd>
-                <dd>&#9642;住所: 東京都八王子市東町12-14</dd>
-                <dd>&#9642;予算: 2001～3000円</dd>
-                <dd>&#9642;キャッチコピー: 2.5時間飲み放題付2000円~ 【★少人数様ソファー★】</dd>
-                <dd>&#9642;ジャンル: 居酒屋</dd>
-                <dd>&#9642;営業時間: 月～日、祝日、祝前日: 17:00～翌5:00 （料理L.O. 翌3:00 ドリンクL.O. 翌4:00）</dd>
-                <dd>&#9642;最寄駅: 八王子</dd>
-                <dd>&#9642;サブジャンル: ダイニングバー・バル</dd>
-            </dl>
-        </ul>
+        <h1>グルメ情報</h1>
+        <h2>飲食店の情報を検索できます！</h2>
+        <label for="jyanru">ジャンル</label>
+
+        <select id="syurui">
+            <option value="">食べ物を選択してください</option>
+            <option value="">居酒屋</option>
+            <option value="">ダイニングバー・バル</option>
+            <option value="">創作料理</option>
+            <option value="">和食</option>
+            <option value="">洋食</option>
+            <option value="">イタリアン・フレンチ</option>
+            <option value="">中華</option>
+            <option value="">焼肉・ホルモン</option>
+            <option value="">アジア・エスニック料理</option>
+            <option value="">各国料理</option>
+            <option value="">カラオケ・パーティ</option>
+            <option value="">バー・カクテル</option>
+            <option value="">ラーメン</option>
+            <option value="">カフェ・スイーツ</option>
+            <option value="">その他グルメ</option>
+            <option value="">お好み焼き・もんじゃ</option>
+            <option value="">韓国料理</option>
+        </select>
+
+        <button id="kensaku">検索</button>
+        <div id="info"></div>
+        <div id="research"></div>
     </body>
 </html>
