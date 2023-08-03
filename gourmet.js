@@ -308,6 +308,7 @@ function showResult(resp){
  let divi = document.querySelector('div#research');  
   pyo = document.createElement('p');
   pyo.setAttribute('id','sub');
+  pyo.textContent = ('検索結果は以上です。');
  kaisu = kaisu+1;
 }
 //通信エラーの処理
