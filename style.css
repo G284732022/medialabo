@@ -4,9 +4,10 @@ body {
 h1{
     position: relative;
     color: rgb(255, 255, 255);
-    background-color: #000000;
-    border: solid 3px #000000;
+    background-color: rgb(39, 39, 39);
+    border: solid 3px #696969;
     padding: 0.5em;
+    margin: 10px 5px 15px 5px;
     border-radius: 0.5em;
 }
 h2 {
@@ -15,4 +16,15 @@ h2 {
     background: linear-gradient(to left,#a4f6ff,rgb(228, 254, 255));
     box-shadow: 0px 0px 0px 5px #87cefa;
     padding: 0.2em 0.5em;
+    margin: 15px 10px 15px 10px;
+}
+
+h3 {
+    background: linear-gradient(transparent 60%, yellow 30%);
+    display: inline-block;
+    margin: 0px 10px 5px 10px;
+}
+
+p {
+    margin: 5px 10px 5px 10px;
 }
