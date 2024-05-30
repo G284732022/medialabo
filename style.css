@@ -1,4 +1,7 @@
-.bg_pattern {
+*{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',cursive;
+}
+.page {
     position: fixed;
     top: 0;
     left: 0;
@@ -8,7 +11,7 @@
     z-index: -1;
     overflow: scroll;
   }
-.Paper {
+.cross {
     background-image:
       repeating-linear-gradient(to bottom,
         transparent 25px,
@@ -79,9 +82,10 @@ h2 {
 }
 
 h3 {
-    background: linear-gradient(transparent 60%, yellow 30%);
+    background: linear-gradient(transparent 70%, #4c9ac0 95%);
     display: inline-block;
     margin: 0px 10px 0px 10px;
+    font-size:  21px; 
 }
 
 p {
