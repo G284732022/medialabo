@@ -1,10 +1,45 @@
+.page {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background-color: #ffffff;
+   opacity: 0.7;
+   z-index: -1;
+ }
+
+ .moyou {
+   background-image:  radial-gradient(#ffc107 2px, transparent 2px), radial-gradient(#ffc107 2px, #ffeaac 2px);
+   background-size: 40px 40px;
+   background-position: 0 0 20px 20px;
+ }
+
 h1{
-    text-align:center;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    text-shadow:  2px 1px black;
-    background:linear-gradient(0.25turn,#ffffff,#79ddf0,#3ee8fb,#79ddf0,#ffffff);
+   text-align:center;
+   color: rgb(0, 0, 0);
+   font-style: italic;
  }
+
+ h2{
+   margin: 5px;
+ }
+ 
  h3{
-    border-bottom: thick double rgb(70, 255, 153);
+   border-bottom: double 8px rgb(0, 0, 0);
  }
+
+ p#sub{
+   color: black;
+   text-shadow: 10px 10px 30px white;
+   font-size:  19px;
+   margin: 10px 16px 20px;
+ }
+
+ div#shop{
+   background-color: rgb(255, 255, 255, .7);
+   margin: 15px 15px 50px 15px;
+   padding: 5px 5px 5px 5px;
+   border: solid 3px;
+   border-color: black;
+}

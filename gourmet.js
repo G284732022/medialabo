@@ -280,6 +280,9 @@ function showResult(resp){
   divi.insertAdjacentElement('beforeend', div1);  
   let h3 = document.createElement('h3')
   h3.textContent = ('店舗名:' + data.results.shop[i].name);
+  let img = document.createElement('img');
+  img.setAttribute("src",data.results.shop[i].logo_image);
+  h3.insertAdjacentElement('afterbegin',img);
   div1.insertAdjacentElement('beforeend', h3);
   let pyo = document.createElement('p'); 
   pyo.textContent = ('住所:' + data.results.shop[i].address);
@@ -309,7 +312,8 @@ function showResult(resp){
   pyo = document.createElement('p');
   pyo.setAttribute('id','sub');
   pyo.textContent = ('検索結果は以上です。');
- kaisu = kaisu+1;
+  divi.insertAdjacentElement('beforeend', pyo);
+  kaisu = kaisu+1;
 }
 //通信エラーの処理
 function showError(err){
