@@ -42,7 +42,7 @@ h1 {
     font-weight: bold;
     padding: 0.5em 1em;
     margin: 10px 15px 20px 15px;
-    background-color: #4c9ac0;
+    background-color: #3cb371;
     color: #fff;
     overflow: hidden;
     position: relative;
@@ -63,7 +63,7 @@ h1::after {
 h2 {
     font-weight: bold;
     margin: 15px 15px 30px 15px;
-    border: 3px solid #4c9ac0;
+    border: 3px solid #3cb371;
     background-color: #fff;
     padding: 0.5em 1em;
     position: relative;
@@ -71,7 +71,7 @@ h2 {
 
  h2::after {
     content: '';
-    background-color: #4c9ac0;
+    background-color: #3cb37a;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -82,7 +82,7 @@ h2 {
 }
 
 h3 {
-    background: linear-gradient(transparent 70%, #4c9ac0 95%);
+    background: linear-gradient(transparent 70%, #3cb371 95%);
     display: inline-block;
     margin: 0px 10px 0px 10px;
     font-size:  21px; 
